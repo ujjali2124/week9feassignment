@@ -1,0 +1,60 @@
+<head>
+    <title>Week 9</title>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+  </head>
+  <body>
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Feel Free</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+
+      <div class="container mt-4">
+        <h3>Feel Free To Write Your Review</h3>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+          </div><br>
+          <div class="form-group">
+            <label for="email">Email address</label>
+            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+          </div><br>
+          <div class="form-group">
+            <label for="sel2">Select Country</label>
+            <select class="form-control input-lg" id="sel2">
+              <option>India</option>
+              <option>USA</option>
+            </select>
+          </div><br>
+          <div class="form-group">
+            <label for="description">Description</label>
+            <input class="form-control input-lg" id="description" type="text">
+          </div><br>
+          <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
